@@ -5,7 +5,6 @@ coverage
 
 *.yaml
 *.d.ts
-package.json 
 
 # Logs
 logs
