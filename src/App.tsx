@@ -4,7 +4,7 @@ import { ArtList } from "./ArtWorks";
 
 export default function App() {
 	return (
-		<div className="App">
+		<div className="h-screen App bg-slate-800">
 			<Routes>
 				{/* <Route path="*" element={<FourOFour />} /> */}
 				<Route path="/" element={<Home />} />

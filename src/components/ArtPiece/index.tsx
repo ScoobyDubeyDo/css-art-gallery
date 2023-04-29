@@ -12,7 +12,7 @@ export const ArtPiece = ({ cover, title, id, url }: Props) => {
 		<Link to={url}>
 			<div
 				id={id}
-				className="relative rounded-lg w-80 aspect-video group overflow-clip"
+				className="relative rounded-lg w-80 aspect-video group overflow-clip hover:ring-1 ring-offset-slate-800 ring-sky-300 ring-offset-2"
 			>
 				<img
 					src={`${cover}`}
