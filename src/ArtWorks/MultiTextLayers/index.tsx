@@ -65,7 +65,7 @@ export const MultiTextLayers = () => {
 					mouseCoordinates.y * 48
 				}px 0px #facc15`
 			}}
-			className="flex items-center justify-center h-full uppercase bg-yellow-900 select-none font-gluten text-9xl text-neutral-50"
+			className="flex items-center justify-center h-full text-4xl uppercase bg-yellow-900 select-none font-gluten md:text-9xl text-neutral-50"
 		>
 			Some
 			<br />

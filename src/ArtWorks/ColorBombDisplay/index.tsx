@@ -98,7 +98,7 @@ export const ColorBombDisplay = () => {
 				backgroundColor: selectedBgColor
 			}}
 			onClick={handleClick}
-			className="relative flex items-center justify-center h-screen overflow-hidden font-extrabold text-center cursor-pointer select-none text-slate-950 text-9xl"
+			className="relative flex items-center justify-center h-screen overflow-hidden text-3xl font-extrabold text-center cursor-pointer select-none md:text-9xl text-slate-950"
 		>
 			<span className="z-10">This can be a good header</span>
 			{circles.map(({ color, x, y, id }) => {

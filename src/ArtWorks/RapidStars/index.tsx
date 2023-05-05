@@ -22,7 +22,7 @@ export const RapidStars = () => {
 			className="relative h-full cursor-pointer bg-gray-950 overflow-clip"
 		>
 			<div
-				className={`absolute animate-sprint w-32 h-32 rounded-full bg-slate-400 -right-20 top-2/3 translate-x-4 ${
+				className={`absolute animate-sprint w-20 h-20 md:w-32 md:h-32 rounded-full bg-slate-400 -right-20 top-2/3 translate-x-4 ${
 					durationFactor === 10 ? "blur-3xl" : "blur-sm"
 				}`}
 			></div>
